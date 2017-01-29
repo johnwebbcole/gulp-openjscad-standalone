@@ -10,7 +10,8 @@ gulp.task('build', function () {
   return gulp.src([
     './node_modules/jquery/dist/jquery.js',
     './node_modules/marked/marked.min.js',
-    './node_modules/axios/dist/axios.min.js'
+    './node_modules/axios/dist/axios.min.js',
+    './README.md'
   ])
     .pipe(plugins.plumber())
     .pipe(gulp.dest('docs'));
