@@ -1,0 +1,32 @@
+{
+  "name": "openjscad-standalone",
+  "version": "0.5.2",
+  "description": "A copy of OpenJsCad containing files for standalone usage.",
+  "homepage": "",
+  "author": {
+    "name": "John Cole",
+    "email": "johnwebbcole@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/openjscad-standalone.js",
+  "keywords": [
+    "jscad"
+  ],
+  "devDependencies": {
+    "axios": "^0.15.3",
+    "del": "^2.2.2",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-load-plugins": "^1.4.0",
+    "gulp-plumber": "^1.0.0",
+    "marked": "^0.3.6"
+  },
+  "repository": "johnwebbcole/openjscad-standalone",
+  "scripts": {
+    "test": "exit 1;"
+  },
+  "license": "ISC"
+}
