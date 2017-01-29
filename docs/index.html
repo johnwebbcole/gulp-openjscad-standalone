@@ -72,7 +72,7 @@ History:
         gProcessor.setJsCad(response.data, filename);
       });
 
-      axios.get('../README.md').then(function(response) {
+      axios.get('README.md').then(function(response) {
         document.getElementById('README').innerHTML = marked(response.data);
       });
     }

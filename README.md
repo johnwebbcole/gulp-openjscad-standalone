@@ -1,6 +1,8 @@
 # openjscad-standalone [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > A copy of OpenJsCad containing files for standalone usage.
 
+https://johnwebbcole.github.io/openjscad-standalone/
+
 ## Installation
 
 ```sh
