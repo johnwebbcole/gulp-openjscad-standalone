@@ -64,7 +64,6 @@ module.exports = function (options) {
       theme:'<link rel="stylesheet" href="themes/architect/css/style.css" type="text/css">'
     }, options);
 
-    console.log('options', options);
     copyDist(self, options.filename);
     getFiles(self);
     renderIndex(self, options);
