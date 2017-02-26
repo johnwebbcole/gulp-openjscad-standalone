@@ -22,7 +22,7 @@
     "docs/jscad-function.js",
     "docs/layout.css",
     "docs/themes.sh",
-    "docs/imgs/busy.gif"
+    "docs/imgs/busy.gif",
     "docs/index.tmpl"
   ],
   "main": "index.js",
