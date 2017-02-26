@@ -1,7 +1,7 @@
 {
-  "name": "openjscad-standalone",
-  "version": "0.5.2",
-  "description": "A copy of OpenJsCad containing files for standalone usage.",
+  "name": "gulp-openjscad-standalone",
+  "version": "1.0.0",
+  "description": "Glup plugin to create a github docs page from the readme.md file and a standalone OpenJsCad project.",
   "homepage": "",
   "author": {
     "name": "John Cole",
@@ -9,19 +9,32 @@
     "url": ""
   },
   "files": [
-    "dist"
+    "docs/jquery.js",
+    "docs/marked.min.js",
+    "docs/axios.min.js",
+    "docs/jquery.hammer.js",
+    "docs/lightgl.js",
+    "docs/csg.js",
+    "docs/formats.js",
+    "docs/openjscad.js",
+    "docs/openscad.js",
+    "docs/jscad-worker.js",
+    "docs/jscad-function.js",
+    "docs/layout.css",
+    "docs/themes.sh",
+    "docs/imgs/busy.gif"
   ],
   "main": "dist/openjscad-standalone.js",
   "keywords": [
     "jscad"
   ],
   "devDependencies": {
-    "axios": "^0.15.3",
     "del": "^2.2.2",
     "gulp": "^3.9.0",
     "gulp-concat": "^2.6.1",
     "gulp-load-plugins": "^1.4.0",
     "gulp-plumber": "^1.0.0",
+    "gulp-template": "^4.0.0",
     "marked": "^0.3.6"
   },
   "repository": "johnwebbcole/openjscad-standalone",

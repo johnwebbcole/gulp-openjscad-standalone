@@ -4,7 +4,7 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
   <title>
-    openjscad-standalone
+    <%= title %>
   </title>
   <script src="jquery.js"></script>
   <script src="marked.min.js"></script>
@@ -17,13 +17,7 @@
   <script src="jscad-worker.js"></script>
   <script src="jscad-function.js"></script>
   <link rel="stylesheet" href="layout.css" type="text/css">
-  <link rel="stylesheet" href="themes/architect/css/style.css" type="text/css">
-
-    <style>
-      #README {
-        display: inline;
-      }
-    </style>
+  <%= theme %>
 </head>
 
 <body onload="loadProcessor()">
@@ -48,22 +42,7 @@
   </div>
 
   <div id="README">
-    <h1 id="openjscad-standalone-npm-version-npm-image-npm-url-build-status-travis-image-travis-url-dependency-status-daviddm-image-daviddm-url-">openjscad-standalone <a href="https://npmjs.org/package/openjscad-standalone"><img src="https://badge.fury.io/js/openjscad-standalone.svg" alt="NPM version" title="null"></a> <a href="https://travis-ci.org/johnwebbcole/openjscad-standalone"><img src="https://travis-ci.org/johnwebbcole/openjscad-standalone.svg?branch=master" alt="Build Status" title="null"></a> <a href="https://david-dm.org/johnwebbcole/openjscad-standalone"><img src="https://david-dm.org/johnwebbcole/openjscad-standalone.svg?theme=shields.io" alt="Dependency Status" title="null"></a></h1>
-<blockquote>
-<p>A copy of OpenJsCad containing files for standalone usage.</p>
-</blockquote>
-<p><a href="https://johnwebbcole.github.io/openjscad-standalone/">https://johnwebbcole.github.io/openjscad-standalone/</a></p>
-<h2 id="installation">Installation</h2>
-<pre><code class="lang-sh">$ npm install --save openjscad-standalone
-</code></pre>
-<h2 id="usage">Usage</h2>
-<pre><code class="lang-js">var openjscadStandalone = require(&#39;openjscad-standalone&#39;);
-
-openjscadStandalone(&#39;Rainbow&#39;);
-</code></pre>
-<h2 id="license">License</h2>
-<p>ISC © <a href="">John Cole</a></p>
-
+    <%= readme %>
   </div>
 
   <!-- define the design and the parameters -->
@@ -73,7 +52,7 @@ openjscadStandalone(&#39;Rainbow&#39;);
     function loadProcessor() {
       var element = document.getElementById("viewerContext");
       gProcessor = new OpenJsCad.Processor(element);
-      var filename = 'logo.jscad';
+      var filename = '<%= filename %>';
       var xhr = new XMLHttpRequest();
       gProcessor.setStatus("Loading " + filename);
       xhr.open("GET", filename, true);
