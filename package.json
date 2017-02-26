@@ -39,7 +39,7 @@
   },
   "repository": "johnwebbcole/gulp-openjscad-standalone",
   "scripts": {
-    "test": "exit 1;"
+    "test": "exit 0;"
   },
   "license": "ISC"
 }
