@@ -1,4 +1,4 @@
-# openjscad-standalone [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# gulp-openjscad-standalone [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > A gulp plugin to create a github page from an OpenJsCad project.
 
 https://johnwebbcole.github.io/gulp-openjscad-standalone/
