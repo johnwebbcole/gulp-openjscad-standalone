@@ -1,6 +1,6 @@
 {
   "name": "gulp-openjscad-standalone",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Glup plugin to create a github docs page from the readme.md file and a standalone OpenJsCad project.",
   "homepage": "https://github.com/johnwebbcole/gulp-openjscad-standalone",
   "author": {
@@ -26,7 +26,8 @@
   ],
   "main": "dist/openjscad-standalone.js",
   "keywords": [
-    "jscad", "gulp-plugin"
+    "jscad",
+    "gulp-plugin"
   ],
   "devDependencies": {
     "del": "~2.2.2",
