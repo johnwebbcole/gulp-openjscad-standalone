@@ -24,7 +24,7 @@
     "docs/themes.sh",
     "docs/imgs/busy.gif"
   ],
-  "main": "dist/openjscad-standalone.js",
+  "main": "index.js",
   "keywords": [
     "jscad",
     "gulp-plugin"
