@@ -10,8 +10,6 @@
   },
   "files": [
     "docs/jquery.js",
-    "docs/marked.min.js",
-    "docs/axios.min.js",
     "docs/jquery.hammer.js",
     "docs/lightgl.js",
     "docs/csg.js",

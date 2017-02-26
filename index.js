@@ -35,7 +35,7 @@ function renderIndex(stream, options) {
 function copyDist(stream, main) {
   var filepath = path.resolve(__dirname, main);
   var f = new gutil.File({
-    path: main.replace('dist/'),
+    path: path.basename(main),
     contents: fs.readFileSync(filepath)
   });
   stream.push(f);
@@ -57,14 +57,15 @@ module.exports = function (options) {
       readme: marked(fs.readFileSync(path.resolve(basepath, 'README.md'), 'utf8'), {
           renderer: renderer
       }),
-      filename: path.resolve(basepath, target.main),
+      filepath: path.resolve(basepath, target.main),
+      filename: path.basename(target.main),
       title: target.description,
       version: target.version,
       name: target.name,
       theme:'<link rel="stylesheet" href="themes/architect/css/style.css" type="text/css">'
     }, options);
 
-    copyDist(self, options.filename);
+    copyDist(self, options.filepath);
     getFiles(self);
     renderIndex(self, options);
     callback();

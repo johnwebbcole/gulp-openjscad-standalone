@@ -28,15 +28,15 @@ dl() {
 }
 
 dl architect
-dl caymen
-dl dinky
-dl hacker
-dl leap-day
-dl merlot
-dl midnight
-dl minima
-dl minimal
-dl modernist
-dl slate
-dl tactile
-dl time-machine
+# dl caymen
+# dl dinky
+# dl hacker
+# dl leap-day
+# dl merlot
+# dl midnight
+# dl minima
+# dl minimal
+# dl modernist
+# dl slate
+# dl tactile
+# dl time-machine
