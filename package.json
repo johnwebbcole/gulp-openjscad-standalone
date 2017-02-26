@@ -29,18 +29,16 @@
     "jscad",
     "gulp-plugin"
   ],
-  "devDependencies": {
-    "del": "~2.2.2",
-    "gulp": "~3.9.0",
-    "gulp-concat": "~2.6.1",
-    "gulp-load-plugins": "~1.4.0",
-    "gulp-plumber": "~1.0.0",
-    "gulp-template": "~4.0.0",
-    "marked": "~0.3.6"
-  },
+  "devDependencies": {},
   "repository": "johnwebbcole/gulp-openjscad-standalone",
   "scripts": {
     "test": "exit 0;"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gulp-util": "~3.0.8",
+    "lodash": "~4.17.4",
+    "marked": "~0.3.6",
+    "through2": "~2.0.3"
+  }
 }
